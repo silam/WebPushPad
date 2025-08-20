@@ -1,15 +1,10 @@
 // Note: Replace with your own key pair before deploying
-//const applicationServerPublicKey = 'BBZiewymg_BXvcfLF4mMmSyqt63mZyM1LjsPJ33BOiGHHhuiae2Za1mOmeItQimiNaRrslm4MIpP__1AKNovy2Q'
 
 
-// PrivateKey  "Jt5ZXJRvBhzh8BkL7Pk20j7fWyHqHy-UETW3DqtZaDI"	string
-// PublicKey   "BBZiewymg_BXvcfLF4mMmSyqt63mZyM1LjsPJ33BOiGHHhuiae2Za1mOmeItQimiNaRrslm4MIpP__1AKNovy2Q"   string
 (function () {
     // Note: Replace with your own key pair before deploying
-    //const applicationServerPublicKey = 'BCmBW2hJq5nmVNV_MmQKzVsLrWWXqlIZH2M7o6iTfAZWneBNRZ5lNRF86Su3Uii0WZ4gIIOMyJSY6cfPtARw-Qg';
 
-    const applicationServerPublicKey = 'BBZiewymg_BXvcfLF4mMmSyqt63mZyM1LjsPJ33BOiGHHhuiae2Za1mOmeItQimiNaRrslm4MIpP__1AKNovy2Q'
-    //const applicationServerPublicKey = 'BOGXFWsq7wkMCG1xQ8O6bGmIM8555D7K0KHnedcC63lqUKjCg9sieOGNYLwzH1C1aLHK264ufKpJ90yKOb0ACIY';
+    const applicationServerPublicKey = 'BBZiewym'
 
 
     window.blazorPushNotifications = {
