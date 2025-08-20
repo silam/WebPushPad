@@ -25,12 +25,8 @@ namespace BlazorPWANotificationApp.Server.Controllers
         public async Task<int> Get()
         {
             //Replace with your generated public/private key
-            var publicKey = "BBZiewymg_BXvcfLF4mMmSyqt63mZyM1LjsPJ33BOiGHHhuiae2Za1mOmeItQimiNaRrslm4MIpP__1AKNovy2Q";
-            var privateKey = "Jt5ZXJRvBhzh8BkL7Pk20j7fWyHqHy-UETW3DqtZaDI";
-
-            // PrivateKey  "Jt5ZXJRvBhzh8BkL7Pk20j7fWyHqHy-UETW3DqtZaDI"	string
-            // PublicKey   "BBZiewymg_BXvcfLF4mMmSyqt63mZyM1LjsPJ33BOiGHHhuiae2Za1mOmeItQimiNaRrslm4MIpP__1AKNovy2Q"   string
-
+            var publicKey = "BBZiewymg_BXvcfL";
+            var privateKey = "Jt5ZXJRvB";
 
             //give a website URL or mailto:your-mail-id
             var vapidDetails = new VapidDetails("http://serverlessdeveloper.net", publicKey, privateKey);
